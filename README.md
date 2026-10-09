@@ -4,6 +4,8 @@
 当前版本：**v1.3.4-beta（内部迭代 V15，versionCode 135）**
 
 <img src="药时记_icon_1024.png" alt="药时记图标" width="136" />
+<img width="1260" height="2720" alt="d63f64b1c552ec4a0f4bea3b73a26d65" src="https://github.com/user-attachments/assets/48e3cdd1-1b2a-442f-9935-07f0c85fbd7d" />
+
 
 > [!IMPORTANT]
 > 本项目目前为 Beta 测试版。提醒功能受 Android 系统、权限及后台环境影响，不能作为唯一的服药保障。用药方案应遵从医嘱。
