@@ -1,0 +1,21 @@
+药时记 V1.3.2-beta / V13 - Windows 离线构建
+
+环境
+- JDK 17（用户当前：F:\jdk17）
+- Android SDK API 35
+- Build Tools 35.0.0
+- 必须沿用旧版本同一个 debug.keystore，才能覆盖安装并保留数据
+
+PowerShell
+$env:JAVA_HOME="F:\jdk17"
+$env:Path="$env:JAVA_HOME\bin;$env:Path"
+cd F:\yaoshiji
+.\build-apk-offline.ps1
+
+输出
+YaoShiJi-v1.3.2-beta-debug.apk
+
+V13 核心回归
+- 18:20 计划在 08:00 打卡 -> 弹超窗确认 -> 确认后连续天数增加
+- ±60 分钟内 -> 不弹确认
+- 超窗取消 -> 不写记录、不扣库存

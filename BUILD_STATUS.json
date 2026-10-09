@@ -1,0 +1,17 @@
+{
+  "app": "药时记",
+  "version": "1.3.2-beta",
+  "versionCode": 133,
+  "baseline": "V10 backup/restore verified; V12.1 supplement/short-sound/inventory version installs and runs on Mate 60 Pro+",
+  "new": [
+    "same-day check-in counts toward medication streak regardless of scheduled time",
+    "check-in more than 60 minutes early or late requires explicit confirmation",
+    "confirmed out-of-window check-in still counts as taken and updates inventory",
+    "calendar and month stats count same-day early confirmed doses consistently",
+    "streak logic no longer excludes an early taken dose merely because its scheduled time is still in the future"
+  ],
+  "known_limitations": [
+    "recent-task swipe in 卓易通 stops the compatibility environment and reminders",
+    "after reboot, open 药时记 once to reinitialize 卓易通 and alarms"
+  ]
+}
